@@ -1,6 +1,6 @@
 {
   "name": "gif-controller",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "It can control your GIF to pause or play!",
   "main": "dist/bundle.js",
   "scripts": {

@@ -81,7 +81,6 @@ class GifRenderer {
       data: imageByteStream,
       type: "image/gif",
     });
-    console.log("imageDecoder :>> ", this.imageDecoder);
     this.imageDecoder
       .decode({ frameIndex: this.imageIndex })
       .then((result) => this.renderImage(result));
