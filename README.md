@@ -31,6 +31,7 @@ Example:
   <script>
     const gifRenderer = new GifRenderer('#gifImg');
     gifRenderer.startRendering();
+    
     b.onclick = function () {
       if (gifRenderer.paused) {
         this.textContent = 'stop';
@@ -41,6 +42,23 @@ Example:
       }
     };
   </script>
+```
+
+Vue:
+
+```javascript
+<script setup>
+import { GifRenderer } from "gif-controller";
+import { onMounted, ref } from "vue";
+
+const gif = ref(null);
+let gifRenderer = null;
+
+onMounted(() => {
+  gifRenderer = new GifRenderer(gif.value);
+  gifRenderer.startRendering();
+});
+</script>
 ```
 
 # License
