@@ -32,7 +32,8 @@ class GifRenderer {
     this.canvas.style.width = this.element.clientWidth + "px";
     this.canvas.style.height = this.element.clientHeight + "px";
     this.element.after(this.canvas);
-    this.element.style.display = "none";
+    this.element.style.position = "absolute";
+    this.element.style.opacity = "0";
   }
   play() {
     this.paused = false;
