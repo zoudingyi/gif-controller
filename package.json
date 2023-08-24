@@ -1,0 +1,24 @@
+{
+  "name": "gif-controller",
+  "version": "1.0.0",
+  "description": "It can control your GIF to pause or play!",
+  "main": "dist/bundle.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup --config"
+  },
+  "keywords": [
+    "gif-controller",
+    "gif"
+  ],
+  "repository": "https://github.com/zoudingyi/gif-controller",
+  "author": "Devo Zou",
+  "license": "MIT",
+  "homepage": "https://github.com/zoudingyi/gif-controller#readme",
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "rollup": "^3.28.1"
+  }
+}

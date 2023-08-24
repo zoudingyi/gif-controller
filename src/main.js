@@ -19,7 +19,7 @@ class GifRenderer {
       this.element = document.querySelector(data);
     }
     if (data instanceof HTMLElement) {
-      this.element = document.querySelector(data);
+      this.element = data;
     }
     if (!this.element) {
       console.error("无法找到有效的 GIF 图像");
