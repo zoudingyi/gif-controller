@@ -23,7 +23,7 @@ gifRenderer.startRendering();
 
 Example:
 
-```
+```javascript
   <img id="gifImg" style="width: 200px; height: 200px;" src="/image/lofi.gif" alt="">
   <p><button id="b">stop</button></p>
 
